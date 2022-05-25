@@ -1,18 +1,22 @@
 --Para repositorio local
 
 git status (ver estado de nuestro repo)
-
 git init (inicializa un repositorio vacio en la carpeta local)
 
-git commit (crea una version del estado actual de nuestros archivos)
-Ej:
 
-git commit -m "Mensaje o comentario"
-
+1) Trackear archivos 
 
 git add (Trackea archivo)
 Ej:
 git add . (Trackea todos los archivos en el directorio actual)
+
+2) Hacer un Commit
+
+git commit (crea una version del estado actual de nuestros archivos)
+Ej:
+
+git commit -m "initial commit"
+
 
 
 --Una vez trackeados los archivos y commiteados esta listo para hacerse el push en el repositorio remoto
