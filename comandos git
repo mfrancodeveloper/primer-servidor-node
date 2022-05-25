@@ -1,0 +1,31 @@
+--Para repositorio local
+
+git status (ver estado de nuestro repo)
+
+git init (inicializa un repositorio vacio en la carpeta local)
+
+git commit (crea una version del estado actual de nuestros archivos)
+Ej:
+
+git commit -m "Mensaje o comentario"
+
+
+git add (Trackea archivo)
+Ej:
+git add . (Trackea todos los archivos en el directorio actual)
+
+
+--Una vez trackeados los archivos y commiteados esta listo para hacerse el push en el repositorio remoto
+
+--Para repositorio remoto
+git remote add [nombre] [url de repositorio remoto]
+
+Ej:
+git remote add nuestroreporemoto https://github.com/mfrancodeveloper/primer-servidor-node.git
+
+git remote -v (para ver nuestro repo remoto)
+
+git push [nombre] (empujamos nuestros archivos al repo remoto)
+Ej:
+git push nuestroreporemoto main
+
