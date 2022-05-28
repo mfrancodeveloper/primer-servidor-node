@@ -31,5 +31,11 @@ git remote -v (para ver nuestro repo remoto)
 
 git push [nombre] (empujamos nuestros archivos al repo remoto)
 Ej:
-git push nuestroreporemoto main
+git push -u nuestroreporemoto main (la primera vez)
+
+para proximos push:
+git push
+
+--Para remover git staged:
+git reset HEAD
 
